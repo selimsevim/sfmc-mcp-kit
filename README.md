@@ -19,6 +19,8 @@ The app has two top-level tabs:
    Activities, journeys, and Data Extensions
    ([details](#automation-optimizer-pack)).
 
+![MCP Quickstart Kit — recipe selector](screenshots/1.png)
+
 ---
 
 ## Who it is for
@@ -47,6 +49,8 @@ The app generates:
 - a **capability summary** (where known), and
 - a copyable **Markdown setup guide**.
 
+![Provider inputs — region, Client ID, Auth Base URI](screenshots/2.png)
+
 ## What it does **not** do
 
 - It does **not** have a backend, database, login, or analytics.
@@ -69,6 +73,8 @@ npm test         # run Vitest unit tests
 ```
 
 Requires Node 18+.
+
+![AI client selector and generated config output](screenshots/3.png)
 
 ## Supported clients
 
@@ -327,6 +333,16 @@ src/
     optimizerPrompt.test.ts
     optimizerMarkdown.test.ts
 ```
+
+---
+
+---
+
+## Inspiration
+
+Created with inspiration from
+[**The Future of Marketing Cloud Engagement, Changed by MCP Servers**](https://medium.com/@marketingcloudtips/the-future-of-marketing-cloud-engagement-changed-by-mcp-servers-e2f7f29ecd90)
+— a great read on how MCP is reshaping the way we work with Salesforce Marketing Cloud.
 
 ---
 
